@@ -16,14 +16,12 @@ function nowServing(line){
 }
 
 function currentLine(line) {
-  var numbersAndNames = []
+  var numbersAndNames = [];
  if (!line.length) {
    return "The line is currently empty."
 }
 
-
-
-for (var i = 0, i<line.length; i++) {
+for (var i = 0, l=line.length; i<l;i++) {
  numbersAndNames.push(`${i + 1}. ${line[i]}`)
  }
  return `The line is currently: ${numbersAndNames.join(', ')}`
