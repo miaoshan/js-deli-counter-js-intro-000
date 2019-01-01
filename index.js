@@ -1,6 +1,6 @@
-function takeANumber(currentLine,name){
+function takeANumber(line,name){
 
-
-return"    ";
+ line.push(name);
+return "Welcome, ${name}. You are number ${line.length} in line.";
 
 }
