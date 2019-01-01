@@ -20,7 +20,7 @@ function currentLine(line) {
    return "The line is currently empty."
 }
 
-variable numbersAndNames = []
+var numbersAndNames = []
 
 for (var i = 0, i<line.length; i++) {
  numbersAndNames.push(`${i + 1}. ${line[i]}`)
